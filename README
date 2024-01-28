@@ -1,0 +1,8 @@
+This is a Snake game written in C called Cnake. It was made with SDL.
+Controls: When in game, press Q to quit, B to go back to the menu, N for new game
+
+The A.I. works as follows:
+Try to minimize the X value first, then the Y value. If this fails, do it the other way. If this fails, find a random path and try the process again.
+This A.I. is not the best Snake A.I., that would be to find a Hamiltonian path and traverse it until the game ends. But how boring is that?
+
+Modify constants.h and Cmake depending on your system to compile
